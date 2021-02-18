@@ -11,7 +11,7 @@ import SwiftUI
 struct CognitiveModellingTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayingFieldView()
         }
     }
 }

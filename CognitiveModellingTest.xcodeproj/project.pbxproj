@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4DBC08A125DE6E5000A2F55A /* CognitiveModellingTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC08A025DE6E5000A2F55A /* CognitiveModellingTestApp.swift */; };
-		4DBC08A325DE6E5000A2F55A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC08A225DE6E5000A2F55A /* ContentView.swift */; };
+		4DBC08A325DE6E5000A2F55A /* PlayingFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC08A225DE6E5000A2F55A /* PlayingFieldView.swift */; };
 		4DBC08A525DE6E5100A2F55A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC08A425DE6E5100A2F55A /* Assets.xcassets */; };
 		4DBC08A825DE6E5100A2F55A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBC08A725DE6E5100A2F55A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DBC089D25DE6E5000A2F55A /* CognitiveModellingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitiveModellingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DBC08A025DE6E5000A2F55A /* CognitiveModellingTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveModellingTestApp.swift; sourceTree = "<group>"; };
-		4DBC08A225DE6E5000A2F55A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DBC08A025DE6E5000A2F55A /* CognitiveModellingTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CognitiveModellingTestApp.swift; path = CognitiveModellingTest/CognitiveModellingTestApp.swift; sourceTree = SOURCE_ROOT; };
+		4DBC08A225DE6E5000A2F55A /* PlayingFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayingFieldView.swift; path = CognitiveModellingTest/PlayingFieldView.swift; sourceTree = SOURCE_ROOT; };
 		4DBC08A425DE6E5100A2F55A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBC08A725DE6E5100A2F55A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DBC08A925DE6E5100A2F55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,13 +53,13 @@
 			isa = PBXGroup;
 			children = (
 				4DBC08A025DE6E5000A2F55A /* CognitiveModellingTestApp.swift */,
-				4DBC08A225DE6E5000A2F55A /* ContentView.swift */,
+				4DBC08A225DE6E5000A2F55A /* PlayingFieldView.swift */,
 				4DBC08A425DE6E5100A2F55A /* Assets.xcassets */,
 				4DBC08A925DE6E5100A2F55A /* Info.plist */,
 				4DBC08A625DE6E5100A2F55A /* Preview Content */,
 			);
 			path = CognitiveModellingTest;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		4DBC08A625DE6E5100A2F55A /* Preview Content */ = {
 			isa = PBXGroup;
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBC08A325DE6E5000A2F55A /* ContentView.swift in Sources */,
+				4DBC08A325DE6E5000A2F55A /* PlayingFieldView.swift in Sources */,
 				4DBC08A125DE6E5000A2F55A /* CognitiveModellingTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
