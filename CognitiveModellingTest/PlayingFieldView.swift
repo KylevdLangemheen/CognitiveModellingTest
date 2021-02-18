@@ -23,10 +23,7 @@ struct PlayingFieldView: View {
             LazyVGrid(columns: layout, spacing: 1) {
                 ForEach(data, id: \.self) { item in
                     VStack {
-                        Rectangle()
-                            .fill(Color.white)
-                            .frame(height: 40)
-                            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                        CardView()
                     }
                 }
             }
@@ -38,5 +35,18 @@ struct PlayingFieldView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         PlayingFieldView()
+    }
+}
+
+struct CardView: View {
+    var body: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color.white)
+                .frame(height: 40)
+                .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+            
+            Text("txt")
+        }
     }
 }
